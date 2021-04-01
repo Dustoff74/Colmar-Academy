@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+
+header {
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    
+}
+nav {
+    text-align: right;
+    margin-right: 24px;
+    border: 1px solid green;
+    width: auto;
+    
+    
+}
+
+.logo {
+    height: 32px;
+    margin-left: 24px ;
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+    
+    
+}
+.bold {
+    font-weight: bold;
+}
+.gray {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+nav a {
+    color: gray;
+    margin-left: 8px;
+}
+
+main {
+    margin-top: 64px;
+}
+.grid_container {
+    display: grid;
+    grid-template-columns:6fr 4fr ;
+   
+   
+}
+.banner {
+    background-color: lightgray;
+}
+
+.jumbotron {
+    grid-column: 1 / 2;
+    margin: 32px 24px;
+
+}
+.jumbotron img {
+    
+}
+
+.signup {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: flex-start ;
+    color: rgb(61, 61, 61);
+    width: 60%;  
+    margin-left: 24px;
+    
+}
+
+.button {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 8px;
+    width: 90%;
+    text-align: center;     
+    
+}
+
+.signup p {
+    margin-bottom: 50px;
+}
+    
+.no_hurt {
+    background-color: white;
+    margin:32px 24px;
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 1px solid green;
+    z-index: 1;
+}
+
+h2 {
+    color: rgb(61, 61, 61);
+    font-size: 40px;
+}
+
+.no_hurt p {
+    margin-top: 24px;
+    
+}
+
+.source {
+    position: absolute;
+    bottom: 32px;
+}
+
+/* .sidebar { */
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
